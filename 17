@@ -9,5 +9,5 @@ a[n%10]++;
 n/=10;
 }
 for (n=0;n<10;n++)
-printf("%d: %d\n",n,a[n]);
+printf("%d出現過 %d次\n",n,a[n]);
 }
